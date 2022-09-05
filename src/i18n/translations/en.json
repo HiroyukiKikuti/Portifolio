@@ -1,0 +1,31 @@
+{
+   "translation": {
+      "all": {
+         "meuNome": "Fabiano Kikuti"
+      },
+      "header": {
+         "nav": {
+            "principal": "Home",
+            "sobre": "About me",
+            "experiencia": "Experience",
+            "projetos": "Projects",
+            "contato": "Contact"
+         },
+         "principal": {
+            "h1Hello": "Hello, I am",
+            "h1FullStack": "Developer Full-Stack"
+         },
+         "sobre": {
+            "cargos": "Developer Full-Stack, Web Designer, Graphic Designer",
+            "local": "Japan, Aichi",
+            "sobremim": "I'm Brazilian, but living in Japan, I took several courses along my journey in this incredible programming universe, I've done several projects in JAVA, C#, C++, but my real passion is JS and its various frameworks, my favorite is React Native/JS ^_^ I'm currently 16 years old, my first contact with programming code was in 2018, that's where I decided to take an HTML course and since then I've been getting more and more professional. I made this portfolio to show my evolution and to show some of my projects :D"
+         },
+         "experiencia": {
+            "titulo": "SKILLS AND EXPERIENCE",
+            "p1": "Since 4 years I've been studying programming, I've done several projects, some of them were for game servers, ecommerce, website for demonstration of physical and digital products and virtual stores.",
+            "p2": "I've done several React JS projects for small businesses and for now I'm focusing 100% of my time on learning more and more about this amazing framework.",
+            "p3": "I've collaborated for several small startups, with amazing and talented people, so I was able to learn a lot about things despite my young age."
+         }
+      }
+   }
+}

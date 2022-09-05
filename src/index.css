@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Bungee&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+   font-weight: 400;
+
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-text-size-adjust: 100%;
+   --mainColor: #181818;
+   --mainColorLight: #4d4d4d;
+   --secondaryColor: #00a591;
+   --textColor: #fff;
+   --menuImage: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%280, 165, 145, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.App {
+   background-color: #373737;
+   background-size: cover;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   caret-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 880px) {
+   .principal,
+   .sobre,
+   .experiencia {
+      padding: 22% 0;
+      text-align: center;
+   }
+}

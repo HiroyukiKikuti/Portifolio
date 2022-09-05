@@ -1,0 +1,36 @@
+.navbar-link {
+   color: #fff;
+   transition: 0.4s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+   color: #fff;
+}
+
+.navbar-link:hover {
+   color: var(--secondaryColor);
+}
+
+.navbar-toggler {
+   border: none;
+}
+
+.navbar-toggler-icon {
+   background-image: var(--menuImage);
+   color: white;
+}
+
+.navbar-toggler:focus {
+   text-decoration: none;
+   outline: 0;
+   box-shadow: 0 0 0;
+}
+
+.navbar-brand {
+   color: #fff;
+   transition: 0.4s;
+}
+.navbar-brand:hover {
+   color: var(--secondaryColor);
+}

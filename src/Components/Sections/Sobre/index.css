@@ -1,0 +1,134 @@
+.sobre {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 7.5% 20%;
+   min-height: 35vh;
+   background: linear-gradient(rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)),
+      url("https://cdn.discordapp.com/attachments/997142760912064632/1000633466813173780/1812965.jpg");
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sobre-foto {
+   height: 300px;
+   width: 250px;
+   border-left: 2px solid #00f9db;
+   margin-right: 40px;
+   caret-color: rgba(0, 0, 0, 0);
+   transition: 1s;
+}
+
+.sobre-foto:hover {
+   border-left: 2px solid #00423b;
+   border-top-right-radius: 10%;
+   border-bottom-right-radius: 10%;
+   transform: translateY(-0.5em);
+}
+
+.sobre-left {
+   line-height: 1.5rem;
+}
+
+.sobre-titles {
+   text-align: left;
+}
+
+.sobre-right {
+   padding: 15px;
+   box-shadow: 2px 2px 14px 6px rgba(36, 36, 36, 0.6);
+   line-height: 1.5rem;
+}
+
+.sobre-right:hover {
+   cursor: default;
+}
+
+.sobre-titles h1 {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-size: 30px;
+   color: var(--textColor);
+   transition: 0.5s;
+}
+
+.sobre-titles h2 {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 200;
+   font-size: 20px;
+   color: var(--secondaryColor);
+   transition: 0.5s;
+}
+
+.sobre-titles h3 {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 200;
+   font-size: 17px;
+   color: rgb(155, 155, 155);
+   transition: 0.5s;
+}
+
+.sobre-text {
+   text-align: left;
+}
+
+.sobre-text p {
+   color: var(--textColor);
+   font-family: "Montserrat", sans-serif;
+   font-weight: 200;
+   font-size: 15px;
+   color: rgb(221, 221, 221);
+   transition: 0.5s;
+}
+
+@media only screen and (max-width: 1080px) {
+   .sobre {
+      flex-direction: column;
+   }
+   .sobre-foto {
+      height: 250px;
+      width: 200px;
+      border-left: 0px solid #00f9db;
+      border-top: 2px solid #00f9db;
+      margin-bottom: 40px;
+      margin-right: 0px;
+   }
+   .sobre-foto:hover {
+      border-top: 2px solid #006e61;
+      border-left: 0px solid #006e61;
+      transform: translateY(-0.5em);
+   }
+   .sobre-text {
+      text-align: center;
+   }
+   .sobre-titles {
+      text-align: center;
+   }
+
+   .sobre-titles h1 {
+      font-size: 25px;
+   }
+
+   .sobre-titles h2 {
+      font-size: 17px;
+   }
+
+   .sobre-titles h3 {
+      font-size: 15px;
+   }
+
+   .sobre-text p {
+      font-size: 12px;
+   }
+}
+
+@media only screen and (max-width: 230px) {
+   .sobre-foto {
+      display: none;
+   }
+}
