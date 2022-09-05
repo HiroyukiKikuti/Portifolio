@@ -22,14 +22,14 @@ export default function Footer() {
             <CDBBox className="boxFooter">
                <small className="ml-2">&copy; Desenvolvido com ❤ por Kikuti</small>
             </CDBBox>
-            <CDBBox className="boxIcons" display="flex">
+            {/* <CDBBox className="boxIcons" display="flex">
                <a href="https://github.com/HiroyukiKikuti" target="_blank" className="p-2">
                   <CDBIcon fab icon="github"></CDBIcon>
                </a>
                <a href="https://github.com/HiroyukiKikuti" target="_blank" className="mx-3 p-2">
                   <CDBIcon fab icon="discord"></CDBIcon>
                </a>
-            </CDBBox>
+            </CDBBox> */}
          </CDBBox>
       </CDBFooter>
    );
