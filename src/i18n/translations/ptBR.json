@@ -25,6 +25,11 @@
             "p1": "Desde 4 anos que estou estudando programação, ja fiz diversos projetos, alguns deles foram pra servidores de jogos, ecommerce, website para demostração de produtos fisícos e digitais e lojas virtuais.",
             "p2": "Já fiz diversos projetos React JS para pequenas empresas e por enquanto estou focando 100% do meu tempo em aprender cada vez mais sobre esse framework incrível.",
             "p3": "Já colaborei para diversas pequenas startups, com pessoas incriveis e talentosas, com isso consegui aprender muita com coisa apesar da pouca idade."
+         },
+         "contato": {
+            "titulo": "Gostou do meu trabalho?",
+            "p": "Para mais informações entre em contato",
+            "button": "Envie uma mensagem"
          }
       }
    }

@@ -17,12 +17,12 @@ export default function Contato() {
    return (
       <section className="contato" id="contato">
          <div className="contato-left">
-            <h1>Gostou do meu trabalho?</h1>
-            <p>Para mais informações entre em contato</p>
+            <h1>{t("header.contato.titulo")}</h1>
+            <p>{t("header.contato.p")}</p>
             <a href="mailto:kikutifabiano@outlook.com">
                <button>
                   <FaEnvelope />
-                  <span>Envie uma mensagem</span>
+                  <span>{t("header.contato.button")}</span>
                </button>
             </a>
          </div>
