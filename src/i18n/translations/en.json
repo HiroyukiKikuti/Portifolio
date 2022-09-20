@@ -25,6 +25,11 @@
             "p1": "Since 4 years I've been studying programming, I've done several projects, some of them were for game servers, ecommerce, website for demonstration of physical and digital products and virtual stores.",
             "p2": "I've done several React JS projects for small businesses and for now I'm focusing 100% of my time on learning more and more about this amazing framework.",
             "p3": "I've collaborated for several small startups, with amazing and talented people, so I was able to learn a lot about things despite my young age."
+         },
+         "contato": {
+            "titulo": "Did you like my work?",
+            "p": "For more information contact us",
+            "button": "Send a message"
          }
       }
    }
