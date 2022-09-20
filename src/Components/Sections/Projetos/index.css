@@ -1,0 +1,20 @@
+.projetos {
+   padding: 7.5% 20%;
+   min-height: 70vh;
+   background: rgba(29, 29, 29, 0.4);
+   gap: 50px;
+}
+
+.containerCardsStyle {
+   height: 200px;
+   width: 400px;
+   padding-top: 80px;
+   text-align: center;
+   background: #52c0f5;
+   color: fff;
+   font-family: monospace;
+   font-size: 12px;
+   text-transform: uppercase;
+   border-radius: 10px;
+   box-sizing: bor;
+}

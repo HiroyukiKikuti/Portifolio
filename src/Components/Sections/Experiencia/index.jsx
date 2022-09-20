@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 import "./index.css";
 import { useTranslation } from "react-i18next";
-import { FaDatabase, FaHtml5, FaJava, FaJs } from "react-icons/fa";
+import { FaDatabase, FaHtml5, FaJava, FaJs, FaWordpress, FaWordpressSimple } from "react-icons/fa";
 
 export default function Experiencia() {
    const { t } = useTranslation();
@@ -25,14 +25,6 @@ export default function Experiencia() {
          <div className="experiencia-details">
             <div className="chart">
                <span>
-                  React Js <FaJs />
-               </span>
-               <footer className="footerChart">
-                  <div className="barreactjs"></div>
-               </footer>
-            </div>
-            <div className="chart">
-               <span>
                   Front-End <FaHtml5 />
                </span>
                <footer className="footerChart">
@@ -49,10 +41,18 @@ export default function Experiencia() {
             </div>
             <div className="chart">
                <span>
-                  Java <FaJava />
+                  React Js <FaJs />
                </span>
                <footer className="footerChart">
-                  <div className="barjava"></div>
+                  <div className="barreactjs"></div>
+               </footer>
+            </div>
+            <div className="chart">
+               <span>
+                  Wordpress <FaWordpressSimple />
+               </span>
+               <footer className="footerChart">
+                  <div className="barwordpress"></div>
                </footer>
             </div>
             <div className="chart">

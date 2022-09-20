@@ -85,21 +85,21 @@
 }
 
 .barfront {
-   width: 65%;
+   width: 95%;
    background: rgb(0, 255, 157);
 }
 
 .barback {
-   width: 55%;
+   width: 85%;
    background: rgb(255, 34, 83);
 }
 
 .barreactjs {
-   width: 75%;
+   width: 80%;
    background: rgb(160, 14, 153);
 }
-.barjava {
-   width: 40%;
+.barwordpress {
+   width: 65%;
    background: rgb(0, 81, 122);
 }
 .barrnative {

@@ -14,18 +14,15 @@
 }
 
 .sobre-foto {
-   height: 300px;
-   width: 250px;
-   border-left: 2px solid #00f9db;
+   height: 350px;
+   width: 300px;
+   border-left: 4px solid #00f9db;
    margin-right: 40px;
-   caret-color: rgba(0, 0, 0, 0);
-   transition: 1s;
+   transition: 0.6s;
 }
 
 .sobre-foto:hover {
-   border-left: 2px solid #00423b;
-   border-top-right-radius: 10%;
-   border-bottom-right-radius: 10%;
+   border-left: 4px solid #006d62;
    transform: translateY(-0.5em);
 }
 
