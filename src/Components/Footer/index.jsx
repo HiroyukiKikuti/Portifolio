@@ -6,21 +6,24 @@ export default function Footer() {
    const title = "<FK />";
 
    return (
-      <CDBFooter className="shadow">
+      <CDBFooter className="shadow footerbackground">
          <CDBBox
             display="flex"
-            justifyContent="between"
+            justifyContent="center"
             alignItems="center"
             className="mx-auto py-4 flex-wrap"
             style={{ width: "80%" }}
          >
-            <CDBBox className="boxFooter" display="flex" alignItems="center">
+            {/* <CDBBox className="boxFooter" display="flex" alignItems="center">
                <a href="/" className="d-flex align-items-center p-0 text-light">
                   {title}
                </a>
-            </CDBBox>
+            </CDBBox> */}
             <CDBBox className="boxFooter">
-               <small className="ml-2">&copy; Desenvolvido com ❤ por Kikuti</small>
+               <small className="ml-2 smallFotter">
+                  Desenvolvido com <span className="footerHeart">❤</span> por{" "}
+                  <span className="footerSpan">Kikuti</span>
+               </small>
             </CDBBox>
             {/* <CDBBox className="boxIcons" display="flex">
                <a href="https://github.com/HiroyukiKikuti" target="_blank" className="p-2">

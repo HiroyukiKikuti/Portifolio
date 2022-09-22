@@ -16,7 +16,7 @@ export default function Contato() {
 
    return (
       <section className="contato" id="contato">
-         <div className="contato-left">
+         <div className="contato-left" data-aos="fade-left">
             <h1>{t("header.contato.titulo")}</h1>
             <p>{t("header.contato.p")}</p>
             <a href="mailto:kikutifabiano@outlook.com">

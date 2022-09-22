@@ -1,9 +1,25 @@
-.boxFooter a {
-   text-decoration: none;
-}
 .boxFooter small {
    margin-left: 15px;
 }
 .boxFooter {
    color: white;
+}
+
+.smallFotter {
+   font-family: "Montserrat", sans-serif;
+   letter-spacing: 0.1em;
+}
+
+.footerbackground {
+   border-top: 1.5px solid var(--secondaryColor);
+   background-color: #181818;
+}
+
+.footerSpan {
+   font-weight: 550;
+   color: var(--secondaryColor);
+}
+
+.footerHeart {
+   color: red;
 }
