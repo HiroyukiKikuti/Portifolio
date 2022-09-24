@@ -37,6 +37,7 @@ function NavComponent() {
          style={{ backgroundColor: "#181818", borderBottom: "2px solid #00a591" }}
          expand="lg"
          className={scrolled ? "scrolled" : ""}
+         fixed="top"
       >
          <Container>
             <Navbar.Brand href="/">{title}</Navbar.Brand>
