@@ -1,4 +1,10 @@
-import React from "react";
+import { useTranslation } from "react-i18next";
+import Footer from "../../Components/Footer";
+import Navbar from "../../Components/Nav";
+import Contato from "../../Components/Sections/Contato";
+import Experiencia from "../../Components/Sections/Experiencia";
+import Principal from "../../Components/Sections/Principal";
+import Sobre from "../../Components/Sections/Sobre";
 
 import "./index.css";
 
@@ -6,8 +12,8 @@ export default function Projetos() {
    const { t } = useTranslation();
 
    return (
-      <div className="projetos">
-         <h1>Testando projetos -- deploy</h1>
+      <div className="Projetos">
+         <h1>teste deploy</h1>
       </div>
    );
 }

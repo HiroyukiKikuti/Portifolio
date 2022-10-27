@@ -35,9 +35,9 @@ export default function Principal() {
                </a>
             </div>
          </div>
-         <div className="principal-right" data-tilt>
+         <div className="principal-right">
             <img
-               className="imagePrincipal"
+               class="imagePrincipal"
                src="https://cdn.discordapp.com/attachments/884773302478983170/1014143481112965160/programmer.png"
                alt="imagemprogramadorIlustrativa"
             />

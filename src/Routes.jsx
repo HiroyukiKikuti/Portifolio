@@ -7,8 +7,9 @@ export default function AppRoutes() {
    return (
       <BrowserRouter>
          <Routes>
-            <Route path="/" element={<Main />}></Route>
-            <Route path="/projetos" element={<Projetos />}></Route>
+            <Route path="/" exact element={<Main />}></Route>
+            <Route path="*" exact element={<Main />}></Route>
+            <Route path="/projetos" exact element={<Projetos />}></Route>
          </Routes>
       </BrowserRouter>
    );

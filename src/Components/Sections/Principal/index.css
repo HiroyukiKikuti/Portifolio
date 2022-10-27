@@ -33,6 +33,7 @@
 }
 
 .principal-left span {
+   position: relative;
    font-family: "Montserrat", sans-serif;
    font-weight: 300;
    font-size: 55px;
