@@ -57,7 +57,11 @@ function NavComponent() {
                   <Nav.Link href="#experiencia" className="navbar-link">
                      {t("header.nav.experiencia")}
                   </Nav.Link>
-                  <Nav.Link href="#projetos" className="navbar-link">
+                  <Nav.Link
+                     href="https://github.com/HiroyukiKikuti?tab=repositories"
+                     target="_blank"
+                     className="navbar-link"
+                  >
                      {t("header.nav.projetos")}
                   </Nav.Link>
                   <Nav.Link href="#contato" className="navbar-link">

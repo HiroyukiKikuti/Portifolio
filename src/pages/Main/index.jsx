@@ -20,7 +20,7 @@ export default function Main() {
          <Principal />
          <Sobre />
          <Experiencia />
-         <Projetos />
+         {/* <Projetos /> */}
          <Contato />
          <Footer />
       </div>
