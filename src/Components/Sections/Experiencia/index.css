@@ -86,25 +86,56 @@
 
 .barfront {
    width: 95%;
-   background: rgb(0, 255, 157);
+   background: linear-gradient(90deg, rgba(31, 31, 31, 1) 6%, var(--secondaryColor) 52%);
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
 }
 
 .barback {
    width: 85%;
-   background: rgb(255, 34, 83);
+   background: linear-gradient(90deg, rgba(31, 31, 31, 1) 6%, var(--secondaryColor) 52%);
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
 }
 
 .barreactjs {
    width: 80%;
-   background: rgb(160, 14, 153);
+   background: linear-gradient(90deg, rgba(31, 31, 31, 1) 6%, var(--secondaryColor) 52%);
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
 }
 .barwordpress {
    width: 65%;
-   background: rgb(0, 81, 122);
+   background: linear-gradient(90deg, rgba(31, 31, 31, 1) 6%, var(--secondaryColor) 52%);
+
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
 }
 .barrnative {
    width: 30%;
-   background: rgb(0, 122, 75);
+   background: linear-gradient(90deg, rgba(31, 31, 31, 1) 6%, var(--secondaryColor) 52%);
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.divVerMais {
+   color: var(--textColor);
+   justify-content: right;
+   display: flex;
+}
+
+.spanVerMais {
+   background: rgba(29, 29, 29, 0.25);
+   box-shadow: 0 0.5em 0.5em -0.4em rgba(29, 29, 29);
+   border-radius: 10px;
+   padding: 0.5rem;
+   cursor: pointer;
+
+   transition: 0.6s;
+}
+
+.spanVerMais:hover {
+   transform: translateY(-0.4rem);
 }
 
 @media only screen and (max-width: 1080px) {

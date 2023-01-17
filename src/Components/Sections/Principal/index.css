@@ -63,7 +63,7 @@
    border-radius: 8px;
    position: relative;
    background-color: #373737;
-   border: 2px solid #00f9db;
+   border: 2px solid var(--secondaryColor);
    margin-top: 1rem;
    transition: 0.3s;
    font-weight: 600;

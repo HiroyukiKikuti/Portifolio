@@ -14,6 +14,10 @@ export default function Experiencia() {
       Aos.init({ duration: 1000 });
    }, []);
 
+   async function aoClicar() {
+      console.log("ok");
+   }
+
    return (
       <section className="experiencia" id="experiencia" data-aos="fade-right">
          <div className="experiencia-text">
@@ -22,6 +26,7 @@ export default function Experiencia() {
             <p>{t("header.experiencia.p2")}</p>
             <p>{t("header.experiencia.p3")}</p>
          </div>
+
          <div className="experiencia-details">
             <div className="chart">
                <span>
@@ -63,6 +68,10 @@ export default function Experiencia() {
                   <div className="barrnative"></div>
                </footer>
             </div>
+
+            {/* <div className="divVerMais">
+               <span className="spanVerMais">Ver mais ↠</span>
+            </div> */}
          </div>
       </section>
    );

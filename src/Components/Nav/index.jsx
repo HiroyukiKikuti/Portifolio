@@ -34,7 +34,7 @@ function NavComponent() {
 
    return (
       <Navbar
-         style={{ backgroundColor: "#181818", borderBottom: "2px solid #00a591" }}
+         style={{ backgroundColor: "#181818", borderBottom: "2px solid var(--secondaryColor)" }}
          expand="lg"
          className={scrolled ? "scrolled" : ""}
       >
@@ -57,9 +57,9 @@ function NavComponent() {
                   <Nav.Link href="#experiencia" className="navbar-link">
                      {t("header.nav.experiencia")}
                   </Nav.Link>
-                  {/* <Nav.Link href="#projetos" className="navbar-link">
+                  <Nav.Link href="#projetos" className="navbar-link">
                      {t("header.nav.projetos")}
-                  </Nav.Link> */}
+                  </Nav.Link>
                   <Nav.Link href="#contato" className="navbar-link">
                      {t("header.nav.contato")}
                   </Nav.Link>
