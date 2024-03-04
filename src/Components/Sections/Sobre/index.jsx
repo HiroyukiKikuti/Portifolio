@@ -21,7 +21,7 @@ export default function Sobre() {
          <div className="sobre-left" data-aos="fade-up">
             <img
                className="sobre-foto"
-               src="https://cdn.discordapp.com/attachments/884773302478983170/1021788078836289676/perfil3.jpg"
+               src="https://cdn.discordapp.com/attachments/984489112478310512/1214303424481599529/WhatsApp_Image_2024-03-04_at_19.52.59-removebg-preview.png?ex=65f89f31&is=65e62a31&hm=ba4517897afbaff560fe9a1c07806bdfa5a0910b0bf34d7f4fc561f01ef6a761&"
                alt="Uma foto linda e maravilhosa do dono do portifólio"
             />
          </div>
